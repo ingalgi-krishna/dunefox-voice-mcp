@@ -1,0 +1,31 @@
+{
+  "name": "dunefox-voice-mcp",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "MCP server for Dunefox Voice — manage AI voice agents, campaigns, calls, one-way messages and webhooks from any MCP client.",
+  "license": "MIT",
+  "author": "Sucetas Technologies Private Limited",
+  "homepage": "https://dunefox.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ingalgi-krishna/dunefox-voice-mcp.git"
+  },
+  "keywords": ["mcp", "model-context-protocol", "dunefox", "voice-ai", "claude", "ai-agents"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.22.4",
+    "typescript": "^5"
+  }
+}
